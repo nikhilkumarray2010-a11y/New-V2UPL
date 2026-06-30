@@ -2,8 +2,8 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "294351"))
-API_HASH = os.environ.get("API_HASH", "2d211eb63606daee")
+API_ID = int(os.environ.get("API_ID", "39110753"))
+API_HASH = os.environ.get("API_HASH", "0a753cf09dbce1ddb2094ee246afd220)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8649317649:AAHJH-azzFzliXiXEFaHjbFfC2Q8X0N1pLI")
 
 CREDIT = os.environ.get("CREDIT", "NIKHIL BHAI")
