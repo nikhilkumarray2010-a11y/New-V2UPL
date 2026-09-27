@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: New-V2UPL
+    plan: free
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    repo: https://github.com/nikhilkumarray2010-a11y/New-V2UPL
+    branch: main
+    autoDeploy: false
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: WEBHOOK
+        sync: false
+      - key: PORT
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.14.0
